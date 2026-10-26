@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A soft diagonal light band that sweeps across a tile once on focus, like a glass reflection.
+     Pre-rendered gradient; only its translationX/alpha are animated (GPU-cheap). Personal build. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="45"
+        android:startColor="#00FFFFFF"
+        android:centerColor="#3DFFFFFF"
+        android:endColor="#00FFFFFF"
+        android:centerX="0.5" />
+</shape>
