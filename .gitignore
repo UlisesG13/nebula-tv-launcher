@@ -1,0 +1,36 @@
+# --- Configuración personal del usuario (NO subir) ---
+/config/config.json
+
+# --- Artefactos de build de Android / Gradle ---
+launcher/build/
+launcher/app/build/
+launcher/.gradle/
+launcher/local.properties
+launcher/captures/
+.gradle/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# --- Staging generado por los scripts ---
+.nebula-build/
+/tools/venv/
+/tools/adbkey/
+__pycache__/
+*.pyc
+
+# --- IDE / editores ---
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs y temporales ---
+*.log
+shots/
+work/
+backup/
