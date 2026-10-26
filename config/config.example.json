@@ -1,0 +1,25 @@
+{
+  "greeting": {
+    "name": "Familia Pérez"
+  },
+  "clock_format": "12h",
+  "schedule": {
+    "morning": 5,
+    "day": 8,
+    "afternoon": 13,
+    "night": 20
+  },
+  "wallpapers": {
+    "morning": "wallpapers/amanecer.jpg",
+    "day": "wallpapers/dia.jpg",
+    "afternoon": "wallpapers/tarde.jpg",
+    "night": "wallpapers/noche.jpg"
+  },
+  "dock_apps": [
+    "com.netflix.ninja",
+    "com.google.android.youtube.tv",
+    "com.spotify.tv.android",
+    "com.amazon.amazonvideo.livingroom",
+    "com.tubitv"
+  ]
+}
